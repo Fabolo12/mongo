@@ -22,7 +22,7 @@ public class Main {
 
         while (true) {
             final int userInput = UserInputUtil.getUserAction(collect);
-            values[userInput].getAction().doAction();
+            values[userInput].getActionType().doAction();
         }
 
     }
